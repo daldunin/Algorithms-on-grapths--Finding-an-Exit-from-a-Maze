@@ -25,7 +25,7 @@ def reach(adj, x, y):
     # write your code here
     # visited = numpy.zeros((4, 1))
     explore(x)
-    return visited[y]
+    return int(visited[y])
 
 
 def explore(v):
