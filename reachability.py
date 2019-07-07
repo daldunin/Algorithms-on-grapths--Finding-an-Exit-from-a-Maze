@@ -47,5 +47,5 @@ if __name__ == '__main__':
     for (a, b) in edges:
         adj[a - 1].append(b - 1)
         adj[b - 1].append(a - 1)
-    visited = numpy.zeros((m, 1))
+    visited = numpy.zeros((n, 1))
     print(reach(adj, x, y))
